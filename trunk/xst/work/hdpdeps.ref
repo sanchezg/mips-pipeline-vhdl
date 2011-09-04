@@ -1,163 +1,163 @@
 V3 79
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/alu_1bit.vhd" 2011/07/19.18:28:57 J.36
-EN work/alu_1bit 1315142218 \
+EN work/alu_1bit 1315169517 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/alu_1bit.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/alu_1bit/Behavioral 1315142219 \
+AR work/alu_1bit/Behavioral 1315169518 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/alu_1bit.vhd" \
-      EN work/alu_1bit 1315142218 CP full_adder
+      EN work/alu_1bit 1315169517 CP full_adder
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/alu_32bit.vhd" 2011/07/19.18:19:30 J.36
-EN work/alu_32b 1315142224 \
+EN work/alu_32b 1315169523 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/alu_32bit.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/alu_32b/Behavioral 1315142225 \
+AR work/alu_32b/Behavioral 1315169524 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/alu_32bit.vhd" \
-      EN work/alu_32b 1315142224 CP alu_1bit
-FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/banco_registros.vhd" 2011/09/03.19:51:19 J.36
-EN work/reg_file 1315142230 \
+      EN work/alu_32b 1315169523 CP alu_1bit
+FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/banco_registros.vhd" 2011/09/04.11:44:56 J.36
+EN work/reg_file 1315169529 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/banco_registros.vhd" \
       PB ieee/std_logic_1164 1177545575 PH ieee/NUMERIC_STD 1177545583
-AR work/reg_file/arch 1315142231 \
+AR work/reg_file/arch 1315169530 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/banco_registros.vhd" \
-      EN work/reg_file 1315142230
+      EN work/reg_file 1315169529
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Control_ALU.vhd" 2011/09/03.19:33:29 J.36
-EN work/Control_ALU 1315142226 \
+EN work/Control_ALU 1315169525 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Control_ALU.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/Control_ALU/Behavioral 1315142227 \
+AR work/Control_ALU/Behavioral 1315169526 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Control_ALU.vhd" \
-      EN work/Control_ALU 1315142226
+      EN work/Control_ALU 1315169525
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Control_Principal.vhd" 2011/09/03.19:45:15 J.36
-EN work/Control_Principal 1315142232 \
+EN work/Control_Principal 1315169531 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Control_Principal.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/Control_Principal/Behavioral 1315142233 \
+AR work/Control_Principal/Behavioral 1315169532 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Control_Principal.vhd" \
-      EN work/Control_Principal 1315142232
+      EN work/Control_Principal 1315169531
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/execution.vhd" 2011/09/04.09:22:27 J.36
-EN work/execution 1315142244 \
+EN work/execution 1315169543 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/execution.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/execution/Behavioral 1315142245 \
+AR work/execution/Behavioral 1315169544 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/execution.vhd" \
-      EN work/execution 1315142244 CP alu_32b CP mux_2x32 CP Control_ALU CP mux_2x5
+      EN work/execution 1315169543 CP alu_32b CP mux_2x32 CP Control_ALU CP mux_2x5
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Exmem.vhd" 2011/09/03.18:37:16 J.36
-EN work/Exmem 1315142246 \
+EN work/Exmem 1315169545 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Exmem.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/Exmem/Behavioral 1315142247 \
+AR work/Exmem/Behavioral 1315169546 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Exmem.vhd" \
-      EN work/Exmem 1315142246
+      EN work/Exmem 1315169545
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/full_adder.vhd" 2011/03/30.18:27:28 J.36
-EN work/full_adder 1315142216 \
+EN work/full_adder 1315169515 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/full_adder.vhd" \
       PB ieee/std_logic_1164 1177545575 PH ieee/NUMERIC_STD 1177545583
-AR work/full_adder/full_adder_arq 1315142217 \
+AR work/full_adder/full_adder_arq 1315169516 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/full_adder.vhd" \
-      EN work/full_adder 1315142216
+      EN work/full_adder 1315169515
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/IDEX.vhd" 2011/09/03.18:36:12 J.36
-EN work/IDEX 1315142242 \
+EN work/IDEX 1315169541 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/IDEX.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/IDEX/Behavioral 1315142243 \
+AR work/IDEX/Behavioral 1315169542 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/IDEX.vhd" \
-      EN work/IDEX 1315142242
+      EN work/IDEX 1315169541
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/IFID.vhd" 2011/09/03.18:35:29 J.36
-EN work/IFID 1315142238 \
+EN work/IFID 1315169537 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/IFID.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/IFID/Behavioral 1315142239 \
+AR work/IFID/Behavioral 1315169538 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/IFID.vhd" \
-      EN work/IFID 1315142238
+      EN work/IFID 1315169537
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/instruction_decode.vhd" 2011/08/06.19:51:33 J.36
-EN work/instruction_decode 1315142240 \
+EN work/instruction_decode 1315169539 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/instruction_decode.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/instruction_decode/Behavioral 1315142241 \
+AR work/instruction_decode/Behavioral 1315169540 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/instruction_decode.vhd" \
-      EN work/instruction_decode 1315142240 CP reg_file CP Control_Principal
+      EN work/instruction_decode 1315169539 CP reg_file CP Control_Principal
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/instruction_fetch.vhd" 2011/09/03.18:34:54 J.36
-EN work/instruction_fetch 1315142236 \
+EN work/instruction_fetch 1315169535 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/instruction_fetch.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/instruction_fetch/Behavioral 1315142237 \
+AR work/instruction_fetch/Behavioral 1315169536 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/instruction_fetch.vhd" \
-      EN work/instruction_fetch 1315142236 AR work/reg32bit/bhv 1315142235 \
-      AR work/memoria/bhv 1315142223 AR work/alu_32b/Behavioral 1315142225 \
-      AR work/mux_2x32/Behavioral 1315142221 CP reg32bit CP memoria CP alu_32b \
+      EN work/instruction_fetch 1315169535 AR work/reg32bit/bhv 1315169534 \
+      AR work/memoria/bhv 1315169522 AR work/alu_32b/Behavioral 1315169524 \
+      AR work/mux_2x32/Behavioral 1315169520 CP reg32bit CP memoria CP alu_32b \
       CP mux_2x32
-FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/memoria.vhd" 2011/09/03.20:24:43 J.36
-EN work/memoria 1315142222 \
+FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/memoria.vhd" 2011/09/04.11:35:58 J.36
+EN work/memoria 1315169521 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/memoria.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/memoria/bhv 1315142223 \
+AR work/memoria/bhv 1315169522 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/memoria.vhd" \
-      EN work/memoria 1315142222
+      EN work/memoria 1315169521
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/memory_acc.vhd" 2011/09/04.09:46:01 J.36
-EN work/memory_acc 1315142248 \
+EN work/memory_acc 1315169547 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/memory_acc.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/memory_acc/Behavioral 1315142249 \
+AR work/memory_acc/Behavioral 1315169548 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/memory_acc.vhd" \
-      EN work/memory_acc 1315142248 CP memoria
+      EN work/memory_acc 1315169547 CP memoria
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/MemWb.vhd" 2011/09/03.18:37:30 J.36
-EN work/MemWb 1315142250 \
+EN work/MemWb 1315169549 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/MemWb.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/MemWb/Behavioral 1315142251 \
+AR work/MemWb/Behavioral 1315169550 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/MemWb.vhd" \
-      EN work/MemWb 1315142250
-FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips.vhd" 2011/09/04.10:16:41 J.36
-EN work/mips 1315142254 \
+      EN work/MemWb 1315169549
+FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips.vhd" 2011/09/04.17:48:46 J.36
+EN work/mips 1315169553 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/mips/bhv_str 1315142255 \
+AR work/mips/bhv_str 1315169554 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips.vhd" \
-      EN work/mips 1315142254 CP instruction_fetch CP ifid CP instruction_decode \
+      EN work/mips 1315169553 CP instruction_fetch CP ifid CP instruction_decode \
       CP idex CP execution CP exmem CP memory_acc CP memwb CP writeback
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mux_2x32.vhd" 2011/07/19.17:35:32 J.36
-EN work/mux_2x32 1315142220 \
+EN work/mux_2x32 1315169519 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mux_2x32.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/mux_2x32/Behavioral 1315142221 \
+AR work/mux_2x32/Behavioral 1315169520 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mux_2x32.vhd" \
-      EN work/mux_2x32 1315142220
+      EN work/mux_2x32 1315169519
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mux_2x5.vhd" 2011/08/10.19:23:09 J.36
-EN work/mux_2x5 1315142228 \
+EN work/mux_2x5 1315169527 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mux_2x5.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/mux_2x5/Behavioral 1315142229 \
+AR work/mux_2x5/Behavioral 1315169528 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mux_2x5.vhd" \
-      EN work/mux_2x5 1315142228
+      EN work/mux_2x5 1315169527
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/reg32b.vhd" 2011/07/19.13:59:21 J.36
-EN work/reg32bit 1315142234 \
+EN work/reg32bit 1315169533 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/reg32b.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/reg32bit/bhv 1315142235 \
+AR work/reg32bit/bhv 1315169534 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/reg32b.vhd" \
-      EN work/reg32bit 1315142234
+      EN work/reg32bit 1315169533
 FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/writeback.vhd" 2011/08/06.20:08:54 J.36
-EN work/writeback 1315142252 \
+EN work/writeback 1315169551 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/writeback.vhd" \
       PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
       PB ieee/STD_LOGIC_UNSIGNED 1177545583
-AR work/writeback/Behavioral 1315142253 \
+AR work/writeback/Behavioral 1315169552 \
       FL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/writeback.vhd" \
-      EN work/writeback 1315142252 CP mux_2x32
+      EN work/writeback 1315169551 CP mux_2x32

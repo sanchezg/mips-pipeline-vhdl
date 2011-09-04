@@ -9,7 +9,8 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 entity mips is
 	port (
 		clock, reset: in std_logic;
-		salida:	out std_logic_vector(31 downto 0)
+		control_id_ex_gral: out std_logic_vector(8 downto 0);
+		salida, instruccion_gral, direccion_gral, alu_salto_gral: out std_logic_vector(31 downto 0)
 	);
 end mips;
 
@@ -193,7 +194,13 @@ MEM_WB: memwb port map (clk=>clock, reset=>reset, wb=>wb_aux2_in, dato_leido=>Da
 WRITEB: writeback port map (wb=>WB_out_aux3, Dato_leido=>dato_leido_out_aux, AluResult=>AluResult_out_aux2, EscDato=>EscrDato_out_aux2,
 						EscDato_out=>escr_reg_aux, Mux_out=>escr_data_aux, EscrReg=>escrreg_aux);
 
---salida de pipeline (test)
+--salidas de pipeline (test)
 salida <= dato_leido_out_aux;
+instruccion_gral <= mem_out_aux;
+control_id_ex_gral(8 downto 7) <= wb_aux_out; --wb(0)->EscrReg_Aux; wb(1)->MemAReg
+control_id_ex_gral(6 downto 4) <= m_aux_out;
+control_id_ex_gral(3 downto 0) <= ex_aux_out;
+alu_salto_gral <= AluSalto_out_aux;
+direccion_gral <= AluResult_out_aux;
 
 end bhv_str;
