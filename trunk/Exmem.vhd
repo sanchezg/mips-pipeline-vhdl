@@ -27,9 +27,9 @@ begin
 	if (reset='1') then
 		WB_out<="00";
 		M_out<="000";
-		dato2_out<=x"0000";
-		AluResult_out<=x"0000";
-		AluSalto_out<=x"0000";
+		dato2_out<=x"00000000";
+		AluResult_out<=x"00000000";
+		AluSalto_out<=x"00000000";
 		cero_out<='0';
 		EscrDato_out<="00000";	
 	elsif (clk'event and clk = '1') then

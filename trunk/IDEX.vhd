@@ -30,10 +30,10 @@ begin
 		WB_out <= "00";
 		M_out <= "000";
 		EX_out <= "0000";
-		sum_out <= x"0000";
-		dato_1_out <= x"0000";
-		dato_2_out <= x"0000";
-		ext_sig_out <= x"0000";
+		sum_out <= x"00000000";
+		dato_1_out <= x"00000000";
+		dato_2_out <= x"00000000";
+		ext_sig_out <= x"00000000";
 		inst2016_out <= "00000";
 		inst1511_out <= "00000";
 	elsif (clk'event and clk = '1') then

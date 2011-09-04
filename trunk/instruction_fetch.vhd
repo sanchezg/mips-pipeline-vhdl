@@ -64,8 +64,8 @@ begin
 
 --ports maps
 registro_pc: reg32bit	port map (r_in => mux0, r_out => pc_out, clk => clk, reset => reset);
-memo: memoria	port map (rst => reset, clk => clk, rd =>'1', wr => '0', addr => pc_out, out_data=>salida, in_data=>x"0000");
-sum:	alu_32b	port map (x=> pc_out, y=>x"0004", op=>"010", result=>sum_out, carry=>open, zero=>open);
+memo: memoria	port map (rst => reset, clk => clk, rd =>'1', wr => '0', addr => pc_out, out_data=>salida, in_data=>x"00000000");
+sum:	alu_32b	port map (x=> pc_out, y=>x"00000004", op=>"010", result=>sum_out, carry=>open, zero=>open);
 mux_0: mux_2x32	port map (x=>sum_out, y=>alu_result, sel=> Fuente_pc, salida=>mux0);
 											
 salida_sum <= sum_out;											
