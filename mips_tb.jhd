@@ -1,0 +1,3 @@
+MODULE mips_tb
+SUBMODULE mips
+INSTANCE UUT

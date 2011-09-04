@@ -1,7 +1,7 @@
 Release 9.2i - xst J.36
 Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to ./xst/projnav.tmp
-CPU : 0.00 / 0.23 s | Elapsed : 0.00 / 0.00 s
+CPU : 0.00 / 0.26 s | Elapsed : 0.00 / 0.00 s
  
 --> 
 =========================================================================
@@ -14,7 +14,8 @@ Architecture behavioral of Entity alu_1bit is up to date.
 Compiling vhdl file "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mux_2x32.vhd" in Library work.
 Architecture behavioral of Entity mux_2x32 is up to date.
 Compiling vhdl file "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/memoria.vhd" in Library work.
-Architecture bhv of Entity memoria is up to date.
+Entity <memoria> compiled.
+Entity <memoria> (Architecture <bhv>) compiled.
 Compiling vhdl file "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/alu_32bit.vhd" in Library work.
 Architecture behavioral of Entity alu_32b is up to date.
 Compiling vhdl file "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Control_ALU.vhd" in Library work.
@@ -22,7 +23,8 @@ Architecture behavioral of Entity control_alu is up to date.
 Compiling vhdl file "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mux_2x5.vhd" in Library work.
 Architecture behavioral of Entity mux_2x5 is up to date.
 Compiling vhdl file "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/banco_registros.vhd" in Library work.
-Architecture arch of Entity reg_file is up to date.
+Entity <reg_file> compiled.
+Entity <reg_file> (Architecture <arch>) compiled.
 Compiling vhdl file "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Control_Principal.vhd" in Library work.
 Architecture behavioral of Entity control_principal is up to date.
 Compiling vhdl file "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/reg32b.vhd" in Library work.
@@ -48,7 +50,7 @@ Architecture behavioral of Entity writeback is up to date.
 Compiling vhdl file "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips.vhd" in Library work.
 Entity <mips> compiled.
 Entity <mips> (Architecture <bhv_str>) compiled.
-CPU : 0.95 / 1.18 s | Elapsed : 1.00 / 1.00 s
+CPU : 1.08 / 1.34 s | Elapsed : 1.00 / 1.00 s
  
 --> 
 

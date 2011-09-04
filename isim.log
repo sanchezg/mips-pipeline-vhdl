@@ -1,0 +1,46 @@
+ command line:
+   ./mips_tb1_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  2285
+
+Sun Sep 04 17:54:22 2011
+
+Total Line Count : 5004
+
+ Elaboration time : 0.100144 sec.
+
+ Estimate current memory usage : 132.157 Meg. 
+
+ Total Signals          : 1988
+ Total Nets             : 19558
+ Total Signal Drivers   : 838
+ Total Blocks           : 222
+ Total Primitive Blocks : 110
+ Total Processes        : 820
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 19558
+ntrace select -o on -n /mips_tb1/clock 
+ntrace select -o on -n /mips_tb1/reset 
+ntrace select -o on -n /mips_tb1/control_id_ex_gral 
+ntrace select -o on -n /mips_tb1/salida 
+ntrace select -o on -n /mips_tb1/instruccion_gral 
+ntrace select -o on -n /mips_tb1/direccion_gral 
+ntrace select -o on -n /mips_tb1/alu_salto_gral 
+ntrace start 
+isimrun 2500 ns 
+Simulator is doing circuit initialization process.
+WARNING:Simulator:29 - at 0 ns: Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an
+   arithmetic operand, the result will be 'X'(es).
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+
+ Simulation time 0.290417 sec.
+
+ Estimate current memory usage : 138.449 Meg. 
+
+Sun Sep 04 17:54:28 2011
+
