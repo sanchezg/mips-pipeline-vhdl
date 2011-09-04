@@ -1,0 +1,1 @@
+xst -ise "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips_pipeline.ise" -intstyle ise -ifn mips.xst -ofn mips.syr

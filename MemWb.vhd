@@ -22,8 +22,8 @@ process (clk, reset, wb, dato_leido, aluresult, escrdato) is
 begin
 	if (reset='1') then
 		WB_out<="00";
-		dato_leido_out<=x"0000";
-		AluResult_out<=x"0000";
+		dato_leido_out<=x"00000000";
+		AluResult_out<=x"00000000";
 		EscrDato_out<="00000";
 	elsif (clk'event and clk = '1') then
 		WB_out<=WB;

@@ -66,5 +66,10 @@ mux0:			mux_2x32	port map(x=>dato2, y=>ext_sig, sel=>EX(3), salida=>mux0_aux );
 alu_cont:	Control_ALU	port map(func=>ext_sig(5 downto 0), aluop=>EX(1 downto 0), alu_op=>aluop_aux );
 mux1:			mux_2x5	port map (x=>inst2016, y=>inst1511, sel=>EX(2), salida=>EscrDatos);
 
+--señales directas
+wb_out <= wb;
+m_out <= m;
+dato2_out <= dato2;
+
 end Behavioral;
 

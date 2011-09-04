@@ -18,8 +18,8 @@ begin
 process (clk, reset, mem_in, sum_in) is
 begin
 	if (reset='1') then
-		mem_out <= x"0000";
-		sum_out <= x"0000";
+		mem_out <= x"00000000";
+		sum_out <= x"00000000";
 	elsif (clk'event and clk = '1') then
 		mem_out <= mem_in;
 		sum_out <= sum_in;

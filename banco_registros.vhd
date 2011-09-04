@@ -25,8 +25,8 @@ process(clk, reset)
 	begin
 		if (reset='1') then
 			array_reg <= (others =>(others =>'0'));
-			array_reg(10) <= x"000FF070";
-			array_reg(11) <= x"0000D1F0";
+			array_reg(10) <= x"000FF070"; --1044592
+			array_reg(11) <= x"0000D1F0"; --53744
 		elsif (clk'event and clk='1') then
 			if wr_en='1' then array_reg(to_integer(unsigned(wr_addr))) <= wr_data;
 			end if;

@@ -12,7 +12,7 @@ entity memory_acc is
 		AluResult, AluSalto, dato2: in std_logic_vector(31 downto 0);
 		cero: in std_logic;
 		EscrDato:in std_logic_vector(4 downto 0);
-		Dato_leido, AluResult_out: out std_logic_vector(31 downto 0);
+		Dato_leido, AluResult_out, alusalto_out: out std_logic_vector(31 downto 0);
 		EscrDato_out:out std_logic_vector(4 downto 0);
 		WB_out: out std_logic_vector(1 downto 0);
 		FuentePc: out std_logic
@@ -38,7 +38,9 @@ begin
 FuentePC<= M(2) and cero;
 WB_out<=WB;
 EscrDato_out<=EscrDato;
-AluResult_out<=AluSalto; --Esta señal estaba faltando
+--Estas señales faltaban
+AluResult_out<= aluresult;
+alusalto_out <= alusalto;
 
 mem: memoria port map(rst=>rst, clk=>clk, rd=>M(1), wr=>M(0), addr=>AluResult, in_data=>dato2, out_data=>Dato_leido);
 
