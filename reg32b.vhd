@@ -5,6 +5,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity reg32bit is
     Port ( r_in : in  STD_LOGIC_VECTOR (31 downto 0);
+				cs: in std_logic;
            r_out : out  STD_LOGIC_VECTOR (31 downto 0);
            clk, reset : in  STD_LOGIC);
 end reg32bit;
@@ -17,7 +18,7 @@ begin
 	begin
 		if (reset='1') then
 			r_out <= (others => '0');
-		elsif (clk'event and clk='1') then
+		elsif (clk'event and clk='1' and cs='1') then
 			r_out <= r_in;
 		end if;
 	end process;

@@ -5,6 +5,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity writeback is
 	port(
+		clk,reset: in std_logic;
 		WB:in std_logic_vector(1 downto 0);
 		Dato_leido, AluResult: in std_logic_vector(31 downto 0);
 		EscDato: in std_logic_vector(4 downto 0);

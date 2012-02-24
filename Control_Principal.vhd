@@ -32,11 +32,11 @@ begin
   begin
    case instr is
 	
-	 when "000000" => control_out <= "100100010";
-	 when "100011" => control_out <= "011110000";
-	 when "101011" => control_out <= "010001000"; --X1X001000
-	 when "000100" => control_out <= "000000101"; --X0X000101
-	 when others => null;
+	 when "000001" => control_out <= "101100010";
+	 when "100011" => control_out <= "010110000";
+	 when "101011" => control_out <= "011001000"; --X1X001000
+	 when "000100" => control_out <= "001000101"; --X0X000101
+	 when others => control_out <= "000000000";
 	 
 	end case; 
 	 

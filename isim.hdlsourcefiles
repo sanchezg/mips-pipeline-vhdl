@@ -1,19 +1,19 @@
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/writeback.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/MemWb.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/memory_acc.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Exmem.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Control_ALU.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/execution.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/IDEX.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Control_Principal.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/banco_registros.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/instruction_decode.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/IFID.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/full_adder.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/alu_1bit.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/alu_32bit.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/memoria.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/reg32b.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/instruction_fetch.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips.vhd
-C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips_tb1.vhw
+C:/Users/1/Documents/Materias/mips-pipeline-svn/writeback.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/MemWb.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/memory_acc.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/Exmem.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/Control_ALU.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/execution.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/IDEX.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/Control_Principal.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/banco_registros.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/instruction_decode.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/IFID.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/full_adder.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/alu_1bit.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/alu_32bit.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/memoria.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/reg32b.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/instruction_fetch.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/mips.vhd
+C:/Users/1/Documents/Materias/mips-pipeline-svn/test_5.vhw

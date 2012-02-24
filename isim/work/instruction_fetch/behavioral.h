@@ -22,7 +22,7 @@
 class Work_instruction_fetch_behavioral: public HSim__s6 {
 public:
 
-    HSim__s1 SE[6];
+    HSim__s1 SE[7];
 
     HSim__s1 SA[3];
     Work_instruction_fetch_behavioral(const char * name);

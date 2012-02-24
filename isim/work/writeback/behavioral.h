@@ -22,7 +22,7 @@
 class Work_writeback_behavioral: public HSim__s6 {
 public:
 
-    HSim__s1 SE[7];
+    HSim__s1 SE[9];
 
     Work_writeback_behavioral(const char * name);
     ~Work_writeback_behavioral();

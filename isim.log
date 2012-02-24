@@ -1,32 +1,40 @@
  command line:
-   ./mips_tb1_isim_beh.exe
+   ./test_5_isim_beh.exe
      -intstyle  ise
      -ipchost  localhost
-     -ipcport  2285
+     -ipcport  65156
 
-Sun Sep 04 17:54:22 2011
+Sun Dec 18 16:23:18 2011
 
-Total Line Count : 5004
+Total Line Count : 5145
 
- Elaboration time : 0.100144 sec.
+ Elaboration time : 0.0936 sec.
 
- Estimate current memory usage : 132.157 Meg. 
+ Estimate current memory usage : 151.724 Meg. 
 
- Total Signals          : 1988
- Total Nets             : 19558
- Total Signal Drivers   : 838
- Total Blocks           : 222
- Total Primitive Blocks : 110
- Total Processes        : 820
+ Total Signals          : 2069
+ Total Nets             : 19840
+ Total Signal Drivers   : 854
+ Total Blocks           : 227
+ Total Primitive Blocks : 115
+ Total Processes        : 835
  Total Traceable Variables  : 0
- Total Scalar Nets and Variables : 19558
-ntrace select -o on -n /mips_tb1/clock 
-ntrace select -o on -n /mips_tb1/reset 
-ntrace select -o on -n /mips_tb1/control_id_ex_gral 
-ntrace select -o on -n /mips_tb1/salida 
-ntrace select -o on -n /mips_tb1/instruccion_gral 
-ntrace select -o on -n /mips_tb1/direccion_gral 
-ntrace select -o on -n /mips_tb1/alu_salto_gral 
+ Total Scalar Nets and Variables : 19840
+ntrace select -o on -n /test_5/clock 
+ntrace select -o on -n /test_5/reset 
+ntrace select -o on -n /test_5/salida 
+ntrace select -o on -n /test_5/instruccion_gral 
+ntrace select -o on -n /test_5/direccion_gral 
+ntrace select -o on -n /test_5/alu_salto_gral 
+ntrace select -o on -n /test_5/regdest 
+ntrace select -o on -n /test_5/escrdata 
+ntrace select -o on -n /test_5/memareg 
+ntrace select -o on -n /test_5/escrreg2 
+ntrace select -o on -n /test_5/w 
+ntrace select -o on -n /test_5/m 
+ntrace select -o on -n /test_5/ant_a 
+ntrace select -o on -n /test_5/ant_b 
+ntrace select -o on -n /test_5/ex 
 ntrace start 
 isimrun 2500 ns 
 Simulator is doing circuit initialization process.
@@ -37,10 +45,3 @@ WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
 WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
    'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 Finished circuit initialization process.
-
- Simulation time 0.290417 sec.
-
- Estimate current memory usage : 138.449 Meg. 
-
-Sun Sep 04 17:54:28 2011
-

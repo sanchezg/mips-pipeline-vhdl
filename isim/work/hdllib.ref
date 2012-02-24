@@ -1,46 +1,96 @@
-AR ifid behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/IFID.vhd" sub00/vhpl23 1315145562
-EN exmem NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Exmem.vhd" sub00/vhpl30 1315145569
-EN memwb NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/MemWb.vhd" sub00/vhpl34 1315145573
-EN writeback NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/writeback.vhd" sub00/vhpl36 1315145575
-EN instruction_fetch NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/instruction_fetch.vhd" sub00/vhpl20 1315150365
-EN idex NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/IDEX.vhd" sub00/vhpl26 1315145565
-AR mux_2x5 behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mux_2x5.vhd" sub00/vhpl13 1315145552
-AR instruction_decode behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/instruction_decode.vhd" sub00/vhpl25 1315150368
-AR execution behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/execution.vhd" sub00/vhpl29 1315145568
-EN memory_acc NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/memory_acc.vhd" sub00/vhpl32 1315150369
-EN control_principal NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Control_Principal.vhd" sub00/vhpl16 1315145555
-EN alu_1bit NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/alu_1bit.vhd" sub00/vhpl02 1315145541
+AR tt testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/tt.vhw sub00/vhpl75 1324157237
+AR t_memacces testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/t_memacces.vhw sub00/vhpl69 1324059998
+AR testdecod testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/testdecod.vhw sub00/vhpl65 1324150030
+AR mux_2x9 behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/mux_2x9.vhd sub00/vhpl51 1322940795
+AR t_exec testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/t_exec.vhw sub00/vhpl67 1324059850
+AR ifid behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/IFID.vhd sub00/vhpl23 1322940803
+EN exmem NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/Exmem.vhd sub00/vhpl30 1324158583
+EN memwb NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/MemWb.vhd sub00/vhpl34 1322940814
+AR unidad_deteccion_riesgos behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/Unidad_Deteccion_Riesgos.vhd sub00/vhpl53 1322940797
+AR test3 testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/test3.vhw sub00/vhpl61 1324056741
+AR test_completo testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/test_completo.vhw sub00/vhpl73 1324151386
+AR test_exmem testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/test_exmem.vhw sub00/vhpl79 1324159044
+EN writeback NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/writeback.vhd sub00/vhpl36 1324162158
+EN instruction_fetch NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/instruction_fetch.vhd sub00/vhpl20 1324236194
+EN idex NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/IDEX.vhd sub00/vhpl26 1322940806
+AR mux_2x5 behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/mux_2x5.vhd sub00/vhpl13 1322940785
+EN complemto NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/complemto.vhw sub00/vhpl84 1324225451
+AR instruction_decode behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/instruction_decode.vhd sub00/vhpl25 1324230220
+EN test2 NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/test2.vhw sub00/vhpl58 1324055540
+AR execution behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/execution.vhd sub00/vhpl29 1324234823
+EN test3 NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/test3.vhw sub00/vhpl60 1324056740
+EN tes NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/tes.vhw sub00/vhpl56 1324048012
+EN memory_acc NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/memory_acc.vhd sub00/vhpl32 1324236196
+EN control_principal NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/Control_Principal.vhd sub00/vhpl16 1324225995
+EN alu_1bit NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/alu_1bit.vhd sub00/vhpl02 1322940774
+AR testifetch testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/testifetch.vhw sub00/vhpl63 1324058553
+EN unidad_deteccion_riesgos NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/Unidad_Deteccion_Riesgos.vhd sub00/vhpl52 1322940796
 EN mips_tb1 NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips_tb1.vhw" sub00/vhpl44 1315169344
-AR alu_32b behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/alu_32bit.vhd" sub00/vhpl09 1315145548
-EN execution NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/execution.vhd" sub00/vhpl28 1315145567
-AR idex behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/IDEX.vhd" sub00/vhpl27 1315145566
-AR mips bhv_str "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips.vhd" sub00/vhpl39 1315169343
-AR memwb behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/MemWb.vhd" sub00/vhpl35 1315145574
-AR memoria bhv "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/memoria.vhd" sub00/vhpl07 1315150362
-EN instruction_decode NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/instruction_decode.vhd" sub00/vhpl24 1315150367
+AR alu_32b behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/alu_32bit.vhd sub00/vhpl09 1322940781
+AR test_1 testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/test_1.vhw sub00/vhpl87 1324226002
+EN execution NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/execution.vhd sub00/vhpl28 1324234822
+AR idex behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/IDEX.vhd sub00/vhpl27 1322940807
+AR tes testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/tes.vhw sub00/vhpl57 1324048013
+AR anticipacion behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/ANTICIPACION.vhd sub00/vhpl49 1324234819
+AR mips bhv_str C:/Users/1/Documents/Materias/mips-pipeline-svn/mips.vhd sub00/vhpl39 1324236199
+EN mux_3x32 NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/mux_4x32.vhd sub00/vhpl46 1322940786
+AR memwb behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/MemWb.vhd sub00/vhpl35 1322940815
+AR test_3 testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/test_3.vhw sub00/vhpl91 1324230224
+AR memoria bhv C:/Users/1/Documents/Materias/mips-pipeline-svn/memoria.vhd sub00/vhpl07 1324236193
+EN test_completo NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/test_completo.vhw sub00/vhpl72 1324151385
+EN instruction_decode NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/instruction_decode.vhd sub00/vhpl24 1324230219
 AR mips_tb1 testbench_arch "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips_tb1.vhw" sub00/vhpl45 1315169345
-EN ifid NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/IFID.vhd" sub00/vhpl22 1315145561
-AR reg_file arch "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/banco_registros.vhd" sub00/vhpl15 1315150364
-AR control_alu behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Control_ALU.vhd" sub00/vhpl11 1315145550
-EN reg32bit NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/reg32b.vhd" sub00/vhpl18 1315145557
-EN alu_32b NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/alu_32bit.vhd" sub00/vhpl08 1315145547
-EN reg_file NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/banco_registros.vhd" sub00/vhpl14 1315150363
+AR ttt testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/ttt.vhw sub00/vhpl77 1324160278
+AR testcompleto testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/testcompleto.vhw sub00/vhpl81 1324164978
+AR test_5 testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/test_5.vhw sub00/vhpl95 1324236201
+EN ifid NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/IFID.vhd sub00/vhpl22 1322940802
+AR reg_file arch C:/Users/1/Documents/Materias/mips-pipeline-svn/banco_registros.vhd sub00/vhpl15 1324230218
+AR control_alu behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/Control_ALU.vhd sub00/vhpl11 1322940783
+EN reg32bit NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/reg32b.vhd sub00/vhpl18 1322940798
+EN alu_32b NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/alu_32bit.vhd sub00/vhpl08 1322940780
+EN test_1 NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/test_1.vhw sub00/vhpl86 1324226001
+EN test_2 NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/test_2.vhw sub00/vhpl88 1324226070
+EN test_3 NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/test_3.vhw sub00/vhpl90 1324230223
+EN test_4 NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/test_4.vhw sub00/vhpl92 1324230308
+EN test_5 NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/test_5.vhw sub00/vhpl94 1324236200
+EN reg_file NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/banco_registros.vhd sub00/vhpl14 1324230217
+AR test2 testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/test2.vhw sub00/vhpl59 1324055541
+EN tt NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/tt.vhw sub00/vhpl74 1324157236
 EN mips_tb NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips_tb.vhw" sub00/vhpl40 1315150764
-AR memory_acc behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/memory_acc.vhd" sub00/vhpl33 1315150370
-EN full_adder NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/full_adder.vhd" sub00/vhpl00 1315145539
-AR instruction_fetch behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/instruction_fetch.vhd" sub00/vhpl21 1315150366
-EN mips NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips.vhd" sub00/vhpl38 1315169342
-EN memoria NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/memoria.vhd" sub00/vhpl06 1315150361
-EN mux_2x32 NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mux_2x32.vhd" sub00/vhpl04 1315145543
-AR full_adder full_adder_arq "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/full_adder.vhd" sub00/vhpl01 1315145540
-AR alu_1bit behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/alu_1bit.vhd" sub00/vhpl03 1315145542
-AR mips_tb_selfcheck_beh testbench_arch "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips_tb_selfcheck_beh.vhd" sub00/vhpl43 1315150709
-AR exmem behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Exmem.vhd" sub00/vhpl31 1315145570
-AR mux_2x32 behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mux_2x32.vhd" sub00/vhpl05 1315145544
-AR reg32bit bhv "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/reg32b.vhd" sub00/vhpl19 1315145558
-EN control_alu NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Control_ALU.vhd" sub00/vhpl10 1315145549
-AR writeback behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/writeback.vhd" sub00/vhpl37 1315145576
-AR control_principal behavioral "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/Control_Principal.vhd" sub00/vhpl17 1315145556
-EN mux_2x5 NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mux_2x5.vhd" sub00/vhpl12 1315145551
-EN mips_tb_selfcheck_beh NULL "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips_tb_selfcheck_beh.vhd" sub00/vhpl42 1315150708
+AR memory_acc behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/memory_acc.vhd sub00/vhpl33 1324236197
+EN ttt NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/ttt.vhw sub00/vhpl76 1324160277
+EN testifetch NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/testifetch.vhw sub00/vhpl62 1324058552
+EN full_adder NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/full_adder.vhd sub00/vhpl00 1322940772
+EN test_mips NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/test_mips.vhw sub00/vhpl70 1324148668
+AR instruction_fetch behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/instruction_fetch.vhd sub00/vhpl21 1324236195
+EN mips NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/mips.vhd sub00/vhpl38 1324236198
+EN memoria NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/memoria.vhd sub00/vhpl06 1324236192
+EN mux_2x32 NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/mux_2x32.vhd sub00/vhpl04 1324162148
+AR full_adder full_adder_arq C:/Users/1/Documents/Materias/mips-pipeline-svn/full_adder.vhd sub00/vhpl01 1322940773
+AR test testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/test.vhw sub00/vhpl55 1324055613
+AR alu_1bit behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/alu_1bit.vhd sub00/vhpl03 1322940775
+AR mips_tb_selfcheck_beh testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/mips_tb_selfcheck_beh.vhd sub00/vhpl43 1322940821
+AR complemto testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/complemto.vhw sub00/vhpl85 1324225452
+EN test NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/test.vhw sub00/vhpl54 1324055612
+AR exmem behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/Exmem.vhd sub00/vhpl31 1324158584
+EN testdecod NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/testdecod.vhw sub00/vhpl64 1324150029
+AR mux_2x32 behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/mux_2x32.vhd sub00/vhpl05 1324162149
+EN test_writeback NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/test_writeback.vhw sub00/vhpl82 1324160945
+AR reg32bit bhv C:/Users/1/Documents/Materias/mips-pipeline-svn/reg32b.vhd sub00/vhpl19 1322940799
+AR test_2 testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/test_2.vhw sub00/vhpl89 1324226071
+EN control_alu NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/Control_ALU.vhd sub00/vhpl10 1322940782
+AR writeback behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/writeback.vhd sub00/vhpl37 1324162159
+AR control_principal behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/Control_Principal.vhd sub00/vhpl17 1324225996
+EN mux_2x5 NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/mux_2x5.vhd sub00/vhpl12 1322940784
+EN mips_tb_selfcheck_beh NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/mips_tb_selfcheck_beh.vhd sub00/vhpl42 1322940820
+EN t_memacces NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/t_memacces.vhw sub00/vhpl68 1324059997
+AR test_4 testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/test_4.vhw sub00/vhpl93 1324230309
 AR mips_tb testbench_arch "C:/Documents and Settings/gonchi/Escritorio/mips_pipeline/mips_tb.vhw" sub00/vhpl41 1315150765
+EN mux_2x9 NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/mux_2x9.vhd sub00/vhpl50 1322940794
+EN test_exmem NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/test_exmem.vhw sub00/vhpl78 1324159043
+AR test_writeback testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/test_writeback.vhw sub00/vhpl83 1324160946
+EN t_exec NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/t_exec.vhw sub00/vhpl66 1324059849
+AR mux_3x32 behavioral C:/Users/1/Documents/Materias/mips-pipeline-svn/mux_4x32.vhd sub00/vhpl47 1322940787
+EN anticipacion NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/ANTICIPACION.vhd sub00/vhpl48 1324234818
+EN testcompleto NULL C:/Users/1/Documents/Materias/mips-pipeline-svn/testcompleto.vhw sub00/vhpl80 1324164977
+AR test_mips testbench_arch C:/Users/1/Documents/Materias/mips-pipeline-svn/test_mips.vhw sub00/vhpl71 1324148669

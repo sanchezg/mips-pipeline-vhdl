@@ -10,12 +10,12 @@ entity IDEX is
 		M:in std_logic_vector(2 downto 0);
 		EX:  in std_logic_vector(3 downto 0);
 		sum_in,dato_1,dato_2,ext_sig: in std_logic_vector(31 downto 0);
-		inst2016,inst1511: in std_logic_vector (4 downto 0);
+		inst2016,inst1511,inst2521: in std_logic_vector (4 downto 0);
 		WB_out:out std_logic_vector(1 downto 0);
 		M_out:out std_logic_vector(2 downto 0);
 		EX_out:out std_logic_vector(3 downto 0);
 		sum_out,dato_1_out,dato_2_out,ext_sig_out: out std_logic_vector(31 downto 0);
-		inst2016_out,inst1511_out:out std_logic_vector (4 downto 0)
+		inst2016_out,inst1511_out,inst2521_out:out std_logic_vector (4 downto 0)
 	);	  
 end IDEX;
 
@@ -46,6 +46,7 @@ begin
 		ext_sig_out<=ext_sig;
 		inst2016_out<=inst2016;
 		inst1511_out<=inst1511;
+		inst2521_out<=inst2521;
 	end if;
 end process;
 

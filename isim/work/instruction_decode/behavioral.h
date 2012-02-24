@@ -22,16 +22,17 @@
 class Work_instruction_decode_behavioral: public HSim__s6 {
 public:
 
-    HSim__s1 SE[16];
+    HSim__s1 SE[21];
 
-  char *t30;
-  char *t31;
-HSimConstraints *c32;
-HSimConstraints *c33;
-HSimConstraints *c34;
-HSimConstraints *c35;
-HSimConstraints *c36;
-HSimConstraints *c37;
+    HSim__s1 SA[3];
+  char *t14;
+  char *t15;
+HSimConstraints *c16;
+HSimConstraints *c17;
+HSimConstraints *c18;
+HSimConstraints *c19;
+HSimConstraints *c20;
+HSimConstraints *c21;
     Work_instruction_decode_behavioral(const char * name);
     ~Work_instruction_decode_behavioral();
     void constructObject();

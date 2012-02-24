@@ -24,7 +24,7 @@ public:
 
     HSim__s1 SE[15];
 
-  char t58;
+  char t16;
     Work_memory_acc_behavioral(const char * name);
     ~Work_memory_acc_behavioral();
     void constructObject();

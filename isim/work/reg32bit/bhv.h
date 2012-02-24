@@ -22,7 +22,7 @@
 class Work_reg32bit_bhv: public HSim__s6 {
 public:
 
-    HSim__s1 SE[4];
+    HSim__s1 SE[5];
 
     Work_reg32bit_bhv(const char * name);
     ~Work_reg32bit_bhv();
