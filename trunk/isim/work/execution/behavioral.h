@@ -22,14 +22,14 @@
 class Work_execution_behavioral: public HSim__s6 {
 public:
 
-    HSim__s1 SE[16];
+    HSim__s1 SE[25];
 
-    HSim__s1 SA[3];
-HSimConstraints *c87;
-HSimConstraints *c88;
-HSimConstraints *c89;
-  char *t90;
-  char *t91;
+    HSim__s1 SA[7];
+HSimConstraints *c76;
+HSimConstraints *c77;
+HSimConstraints *c78;
+  char *t79;
+  char *t80;
     Work_execution_behavioral(const char * name);
     ~Work_execution_behavioral();
     void constructObject();

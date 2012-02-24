@@ -22,7 +22,7 @@
 class Work_ifid_behavioral: public HSim__s6 {
 public:
 
-    HSim__s1 SE[6];
+    HSim__s1 SE[7];
 
     Work_ifid_behavioral(const char * name);
     ~Work_ifid_behavioral();

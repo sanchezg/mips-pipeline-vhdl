@@ -26,16 +26,18 @@ process(clk, reset)
 		if (reset='1') then
 			array_reg <= (others =>(others =>'0'));
 			array_reg(0) <= x"00000000"; -- 0
-			array_reg(1) <= x"0000000A"; --10
-			array_reg(2) <= x"00000014"; --20
-			array_reg(3) <= x"0000001E"; --30
+			array_reg(1) <= x"000000aa"; --1
+			array_reg(2) <= x"000000ff"; --0
+			array_reg(3) <= x"00000000"; --0
 			array_reg(4) <= x"00000028"; --40
 			array_reg(5) <= x"00000032"; --50
 			array_reg(6) <= x"0000003C"; --60
 			array_reg(7) <= x"00000046"; --70
 			array_reg(8) <= x"00000050"; --80
 			array_reg(9) <= x"0000005A"; --90
-			
+			array_reg(10) <= x"0000005b"; --90
+			array_reg(11) <= x"0000007b"; --90
+			array_reg(14) <= x"00000001"; --90
 		elsif (clk'event and clk='1') then
 			if wr_en='1' then array_reg(to_integer(unsigned(wr_addr))) <= wr_data;
 			end if;

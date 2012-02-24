@@ -22,10 +22,9 @@
 class Work_mips_bhv_str: public HSim__s6 {
 public:
 
-    HSim__s1 SE[7];
+    HSim__s1 SE[15];
 
-    HSim__s1 SA[50];
-  char *t0;
+    HSim__s1 SA[58];
     Work_mips_bhv_str(const char * name);
     ~Work_mips_bhv_str();
     void constructObject();

@@ -6,6 +6,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 entity instruction_fetch is
 	port (
 		reset, clk, fuente_pc : in std_logic;
+		Pc_cs: in std_logic;
 		alu_result :in std_logic_vector (31 downto 0);
 		salida : out std_logic_vector(31 downto 0);
 		salida_sum: out std_logic_vector(31 downto 0)
@@ -19,6 +20,7 @@ architecture Behavioral of instruction_fetch is
 component reg32bit is
 	port (
 		r_in : in  STD_LOGIC_VECTOR (31 downto 0);
+		cs: in std_logic;
 		r_out : out  STD_LOGIC_VECTOR (31 downto 0);
 		clk, reset : in  STD_LOGIC
 		);
@@ -63,7 +65,11 @@ signal pc_out, mux0, sum_out : std_logic_vector (31 downto 0);
 begin
 
 --ports maps
-registro_pc: reg32bit	port map (r_in => mux0, r_out => pc_out, clk => clk, reset => reset);
+registro_pc: reg32bit	port map (r_in => mux0,
+											r_out => pc_out,
+											clk => clk,
+											cs=>Pc_cs,
+											reset => reset);
 memo: memoria	port map (rst => reset, clk => clk, rd =>'1', wr => '0', addr => pc_out, out_data=>salida, in_data=>x"00000000");
 sum:	alu_32b	port map (x=> pc_out, y=>x"00000004", op=>"010", result=>sum_out, carry=>open, zero=>open);
 mux_0: mux_2x32	port map (x=>sum_out, y=>alu_result, sel=> Fuente_pc, salida=>mux0);

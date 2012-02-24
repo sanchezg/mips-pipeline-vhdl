@@ -27,8 +27,8 @@ public:
   HSimArrayType Reg_file_typebase;
   HSimArrayType Reg_file_type;
     HSim__s1 SA[1];
-  int t16;
-  char *t17;
+  int t0;
+  char *t1;
     Work_reg_file_arch(const char * name);
     ~Work_reg_file_arch();
     void constructObject();
