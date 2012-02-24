@@ -1,0 +1,3 @@
+MODULE test_completo
+SUBMODULE mips
+INSTANCE UUT

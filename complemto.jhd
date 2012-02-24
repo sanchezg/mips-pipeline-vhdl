@@ -1,0 +1,3 @@
+MODULE complemto
+SUBMODULE mips
+INSTANCE UUT

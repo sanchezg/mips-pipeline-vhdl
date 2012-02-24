@@ -1,0 +1,6 @@
+vhdl work "mux_2x9.vhd"
+vhdl work "banco_registros.vhd"
+vhdl work "Unidad_Deteccion_Riesgos.vhd"
+vhdl work "Control_Principal.vhd"
+vhdl work "instruction_decode.vhd"
+vhdl work "testdecod.vhw"

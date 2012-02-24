@@ -1,0 +1,3 @@
+vhdl work "memoria.vhd"
+vhdl work "memory_acc.vhd"
+vhdl work "t_memacces.vhw"

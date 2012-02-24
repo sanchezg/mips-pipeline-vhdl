@@ -1,0 +1,11 @@
+[Inputs]
+clock
+reset
+[Outputs]
+=control_id_ex_gral[8:0]=
+=salida[31:0]=
+=instruccion_gral[31:0]=
+=direccion_gral[31:0]=
+=alu_salto_gral[31:0]=
+=regDest[4:0]=
+[BiDir]
