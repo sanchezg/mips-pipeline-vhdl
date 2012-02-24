@@ -1,0 +1,3 @@
+vhdl work "mux_2x32.vhd"
+vhdl work "writeback.vhd"
+vhdl work "test_writeback.vhw"

@@ -1,0 +1,3 @@
+MODULE test_exmem
+SUBMODULE Exmem
+INSTANCE UUT
