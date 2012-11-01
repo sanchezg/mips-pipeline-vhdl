@@ -1,3 +1,0 @@
-MODULE t_memacces
-SUBMODULE memory_acc
-INSTANCE UUT

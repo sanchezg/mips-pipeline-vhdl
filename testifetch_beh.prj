@@ -1,8 +1,0 @@
-vhdl work "full_adder.vhd"
-vhdl work "alu_1bit.vhd"
-vhdl work "reg32b.vhd"
-vhdl work "mux_2x32.vhd"
-vhdl work "memoria.vhd"
-vhdl work "alu_32bit.vhd"
-vhdl work "instruction_fetch.vhd"
-vhdl work "testifetch.vhw"
