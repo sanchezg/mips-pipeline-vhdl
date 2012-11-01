@@ -1,3 +1,0 @@
-MODULE t_exec
-SUBMODULE execution
-INSTANCE UUT

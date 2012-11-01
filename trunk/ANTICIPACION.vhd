@@ -22,11 +22,11 @@ architecture Behavioral of ANTICIPACION is
 begin
 
 	Out_A<= "10" when (EscrReg_ExMem = '1' and EX_MEM_Rd /= "00000" and EX_MEM_Rd = Rs ) else
-			  "01" when (EscrReg_MemWb = '1' and MEM_WB_Rd /= "00000" and MEM_WB_Rd = Rs and EX_MEM_Rd /= Rs) else
+			  "01" when (EscrReg_MemWb = '1' and MEM_WB_Rd /= "00000" and MEM_WB_Rd = Rs ) else
 			  "00";
 			  
 	Out_B<= "10" when (EscrReg_ExMem = '1' and EX_MEM_Rd /= "00000" and EX_MEM_Rd = Rt ) else
-			  "01" when (EscrReg_MemWb = '1' and MEM_WB_Rd /= "00000" and MEM_WB_Rd = Rt and EX_MEM_Rd /= Rt ) else
+			  "01" when (EscrReg_MemWb = '1' and MEM_WB_Rd /= "00000" and MEM_WB_Rd = Rt ) else
 			  "00";
 
 

@@ -1,3 +1,0 @@
-MODULE test_mips
-SUBMODULE mips
-INSTANCE UUT

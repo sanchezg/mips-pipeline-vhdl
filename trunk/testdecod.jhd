@@ -1,3 +1,0 @@
-MODULE testdecod
-SUBMODULE instruction_decode
-INSTANCE UUT

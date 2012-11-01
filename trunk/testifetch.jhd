@@ -1,3 +1,0 @@
-MODULE testifetch
-SUBMODULE instruction_fetch
-INSTANCE UUT
